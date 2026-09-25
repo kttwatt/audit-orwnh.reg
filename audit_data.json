@@ -1,0 +1,142 @@
+{
+  "repo": "audit-orwnh.reg",
+  "title": "ทะเบียนผ่าตัด — Audit",
+  "as_of": "25/09/2026",
+  "rows": 13469,
+  "colA": {
+    "dup": 0,
+    "missing": 4,
+    "offset": 0
+  },
+  "blank_cols": {
+    "First Dx": 2,
+    "Last Dx": 2,
+    "เวลาออกจากห้องผ่าตัด": 1,
+    "Aneasthesia": 1,
+    "Wound Type": 1,
+    "Type": 1
+  },
+  "team": {
+    "dup_in_set": 100,
+    "dup_in_set_recent": 1
+  },
+  "month": {
+    "label": "กันยายน 2569 (1–24)",
+    "total": 560,
+    "cases": [
+      {
+        "date": "3/9/2569",
+        "hn": "81681",
+        "name": "นางนารี พลสันต์",
+        "dept": "Surgery",
+        "op": "AVF Rt. Forearm",
+        "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+        "missing": [
+          "Risk"
+        ]
+      },
+      {
+        "date": "8/9/2569",
+        "hn": "30030",
+        "name": "นายวน เนื่องจำนงค์",
+        "dept": "Surgery",
+        "op": "Suture Wound",
+        "circ": "น.ส.มัญชุกร เกิดไทย",
+        "missing": [
+          "First Dx",
+          "Last Dx"
+        ]
+      },
+      {
+        "date": "11/9/2569",
+        "hn": "147959",
+        "name": "นางบุญเรียน กาสีโล",
+        "dept": "Eye",
+        "op": "Excision of pterygium with conjunctiva graft RE",
+        "circ": "น.ส.วิภาวรรณ ไชโย, น.ส.กรรณชดา สาลีเพ็ง",
+        "missing": [
+          "AN"
+        ]
+      },
+      {
+        "date": "14/9/2569",
+        "hn": "263237",
+        "name": "นายส่งศักดิ์ ภูเวียนวงค์",
+        "dept": "Surgery",
+        "op": "Excisional DB Lt.foot",
+        "circ": "น.ส.มัญชุกร เกิดไทย",
+        "missing": [
+          "Risk"
+        ]
+      },
+      {
+        "date": "21/9/2569",
+        "hn": "263586",
+        "name": "Mr.SANN LIN AUNG",
+        "dept": "Orthopedic",
+        "op": "DB with suture left middle finger",
+        "circ": "น.ส.กรรณชดา สาลีเพ็ง",
+        "missing": [
+          "First Dx",
+          "Last Dx"
+        ]
+      },
+      {
+        "date": "22/9/2569",
+        "hn": "250866",
+        "name": "นางบังอร เชื้อวังคำ",
+        "dept": "Orthopedic",
+        "op": "Posterior  pedicle screw fixation c PLF T5-T9",
+        "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ",
+        "missing": [
+          "เวลาออกจากห้องผ่าตัด"
+        ]
+      },
+      {
+        "date": "22/9/2569",
+        "hn": "4675",
+        "name": "นายเสียง แก้วเหล็ก",
+        "dept": "Orthopedic",
+        "op": "Debridement of wound Lt Leg",
+        "circ": "นางณัฐณิชา ไชยพะยวน",
+        "missing": [
+          "Aneasthesia"
+        ]
+      },
+      {
+        "date": "22/9/2569",
+        "hn": "37965",
+        "name": "นางเจริญพร หันศรี",
+        "dept": "Eye",
+        "op": "Excision of pterygium with AMT RE",
+        "circ": "น.ส.อารียา มัตตะราช, น.ส.อลิชา สุริวรรณ",
+        "missing": [
+          "Wound Type"
+        ]
+      },
+      {
+        "date": "23/9/2569",
+        "hn": "262215",
+        "name": "นางแตง คำจรสิงห์",
+        "dept": "Surgery",
+        "op": "liver segmentectomy",
+        "circ": "น.ส.มัญชุกร เกิดไทย",
+        "missing": [
+          "First Dx",
+          "Last Dx"
+        ]
+      },
+      {
+        "date": "23/9/2569",
+        "hn": "167335",
+        "name": "นายนิยม ประวิเศษ",
+        "dept": "Eye",
+        "op": "Excision Pterygium with conjunctiva graft LE",
+        "circ": "น.ส.อารียา มัตตะราช",
+        "missing": [
+          "Type"
+        ]
+      }
+    ]
+  }
+}
