@@ -84,6 +84,12 @@
     font-size: 0.85rem;
   }
 
+  .circ-cell {
+    font-weight: 700;
+    color: var(--teal);
+    white-space: nowrap;
+  }
+
   .data-table th {
     background: var(--bg-muted);
     color: var(--teal);
@@ -173,7 +179,7 @@
   <div class="wrap">
     <div class="gist-box">
       <div class="gist-box-body">
-        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — วันที่ 1/09/69 ถึง 24/09/69 เวลาอัปเดตล่าสุด: 14:26</p>
+        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — วันที่ 1/09/69 ถึง 24/09/69 เวลาอัปเดตล่าสุด: 14:28</p>
         <p class="section-sub">total: 560</p>
         
         <div id="month-view-table"><div class="table-wrap">
@@ -196,7 +202,7 @@
         <td data-label="ชื่อ">นางนารี พลสันต์</td>
         <td data-label="แผนก">Surgery</td>
         <td data-label="การผ่าตัด">AVF Rt. Forearm</td>
-        <td data-label="Circulating">นายณัฐวุฒิ ทิพย์ทอง</td>
+        <td data-label="Circulating" class="circ-cell">นายณัฐวุฒิ ทิพย์ทอง</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">Risk</span></td>
       </tr><tr>
         <td data-label="วันที่">8/9/2569</td>
@@ -204,7 +210,7 @@
         <td data-label="ชื่อ">นายวน เนื่องจำนงค์</td>
         <td data-label="แผนก">Surgery</td>
         <td data-label="การผ่าตัด">Suture Wound</td>
-        <td data-label="Circulating">น.ส.มัญชุกร เกิดไทย</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.มัญชุกร เกิดไทย</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">First Dx</span><span class="chip chip-warn">Last Dx</span></td>
       </tr><tr>
         <td data-label="วันที่">14/9/2569</td>
@@ -212,7 +218,7 @@
         <td data-label="ชื่อ">นายส่งศักดิ์ ภูเวียนวงค์</td>
         <td data-label="แผนก">Surgery</td>
         <td data-label="การผ่าตัด">Excisional DB Lt.foot</td>
-        <td data-label="Circulating">น.ส.มัญชุกร เกิดไทย</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.มัญชุกร เกิดไทย</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">Risk</span></td>
       </tr><tr>
         <td data-label="วันที่">21/9/2569</td>
@@ -220,7 +226,7 @@
         <td data-label="ชื่อ">Mr.SANN LIN AUNG</td>
         <td data-label="แผนก">Orthopedic</td>
         <td data-label="การผ่าตัด">DB with suture left middle finger</td>
-        <td data-label="Circulating">น.ส.กรรณชดา สาลีเพ็ง</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.กรรณชดา สาลีเพ็ง</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">First Dx</span><span class="chip chip-warn">Last Dx</span></td>
       </tr><tr>
         <td data-label="วันที่">22/9/2569</td>
@@ -228,7 +234,7 @@
         <td data-label="ชื่อ">นางบังอร เชื้อวังคำ</td>
         <td data-label="แผนก">Orthopedic</td>
         <td data-label="การผ่าตัด">Posterior  pedicle screw fixation c PLF T5-T9</td>
-        <td data-label="Circulating">น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">เวลาออกจากห้องผ่าตัด</span></td>
       </tr><tr>
         <td data-label="วันที่">22/9/2569</td>
@@ -236,7 +242,7 @@
         <td data-label="ชื่อ">นายเสียง แก้วเหล็ก</td>
         <td data-label="แผนก">Orthopedic</td>
         <td data-label="การผ่าตัด">Debridement of wound Lt Leg</td>
-        <td data-label="Circulating">นางณัฐณิชา ไชยพะยวน</td>
+        <td data-label="Circulating" class="circ-cell">นางณัฐณิชา ไชยพะยวน</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">Aneasthesia</span></td>
       </tr><tr>
         <td data-label="วันที่">22/9/2569</td>
@@ -244,7 +250,7 @@
         <td data-label="ชื่อ">นางเจริญพร หันศรี</td>
         <td data-label="แผนก">Eye</td>
         <td data-label="การผ่าตัด">Excision of pterygium with AMT RE</td>
-        <td data-label="Circulating">น.ส.อารียา มัตตะราช, น.ส.อลิชา สุริวรรณ</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.อารียา มัตตะราช, น.ส.อลิชา สุริวรรณ</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">Wound Type</span></td>
       </tr><tr>
         <td data-label="วันที่">23/9/2569</td>
@@ -252,7 +258,7 @@
         <td data-label="ชื่อ">นางแตง คำจรสิงห์</td>
         <td data-label="แผนก">Surgery</td>
         <td data-label="การผ่าตัด">liver segmentectomy</td>
-        <td data-label="Circulating">น.ส.มัญชุกร เกิดไทย</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.มัญชุกร เกิดไทย</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">First Dx</span><span class="chip chip-warn">Last Dx</span></td>
       </tr><tr>
         <td data-label="วันที่">23/9/2569</td>
@@ -260,7 +266,7 @@
         <td data-label="ชื่อ">นายนิยม ประวิเศษ</td>
         <td data-label="แผนก">Eye</td>
         <td data-label="การผ่าตัด">Excision Pterygium with conjunctiva graft LE</td>
-        <td data-label="Circulating">น.ส.อารียา มัตตะราช</td>
+        <td data-label="Circulating" class="circ-cell">น.ส.อารียา มัตตะราช</td>
         <td data-label="ข้อมูลที่ขาด"><span class="chip chip-warn">Type</span></td>
       </tr>
         </tbody>
