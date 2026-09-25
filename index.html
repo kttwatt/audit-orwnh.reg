@@ -69,62 +69,6 @@
     font-size: 1rem;
   }
 
-  .view-toggle {
-    display: inline-flex;
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    padding: 3px;
-    margin-bottom: 12px;
-    gap: 2px;
-  }
-
-  .view-btn {
-    border: none;
-    background: transparent;
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 5px 14px;
-    border-radius: 999px;
-    cursor: pointer;
-    font-family: inherit;
-  }
-
-  .view-btn.active {
-    background: var(--teal);
-    color: #fff;
-  }
-
-  .view-btn:hover:not(.active) {
-    color: var(--teal);
-  }
-
-  .lines-wrap {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .case-line {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 0.82rem;
-    padding: 8px 10px;
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    line-height: 1.6;
-  }
-
-  .case-line .dot {
-    color: var(--teal-bright);
-    font-weight: 700;
-    margin: 0 2px;
-  }
-
   .table-wrap {
     overflow-x: auto;
   }
@@ -226,11 +170,7 @@
       <div class="gist-box-body">
         <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ (กันยายน 2569 (1–24))</p>
         <p class="section-sub">total: 560</p>
-        <div class="view-toggle" role="tablist">
-          <button type="button" class="view-btn" data-view="table" onclick="setMonthView('table')">ตาราง</button>
-          <button type="button" class="view-btn active" data-view="lines" onclick="setMonthView('lines')">บรรทัด</button>
-        </div>
-        <div id="month-view-table" style="display:none"><div class="table-wrap">
+        <div id="month-view-table"><div class="table-wrap">
       <table class="data-table">
         <thead>
           <tr>
@@ -328,7 +268,6 @@
         </tbody>
       </table>
     </div></div>
-        <div id="month-view-lines"><div class="lines-wrap"><div class="case-line">3/9/2569 <span class="dot">·</span> HN81681 <span class="dot">·</span> นางนารี พลสันต์ <span class="dot">·</span> Surgery <span class="dot">·</span> AVF Rt. Forearm <span class="dot">·</span> Circ นายณัฐวุฒิ ทิพย์ทอง <span class="dot">·</span> ขาด Risk</div><div class="case-line">8/9/2569 <span class="dot">·</span> HN30030 <span class="dot">·</span> นายวน เนื่องจำนงค์ <span class="dot">·</span> Surgery <span class="dot">·</span> Suture Wound <span class="dot">·</span> Circ น.ส.มัญชุกร เกิดไทย <span class="dot">·</span> ขาด First Dx, Last Dx</div><div class="case-line">11/9/2569 <span class="dot">·</span> HN147959 <span class="dot">·</span> นางบุญเรียน กาสีโล <span class="dot">·</span> Eye <span class="dot">·</span> Excision of pterygium with conjunctiva graft RE <span class="dot">·</span> Circ น.ส.วิภาวรรณ ไชโย, น.ส.กรรณชดา สาลีเพ็ง <span class="dot">·</span> ขาด AN</div><div class="case-line">14/9/2569 <span class="dot">·</span> HN263237 <span class="dot">·</span> นายส่งศักดิ์ ภูเวียนวงค์ <span class="dot">·</span> Surgery <span class="dot">·</span> Excisional DB Lt.foot <span class="dot">·</span> Circ น.ส.มัญชุกร เกิดไทย <span class="dot">·</span> ขาด Risk</div><div class="case-line">21/9/2569 <span class="dot">·</span> HN263586 <span class="dot">·</span> Mr.SANN LIN AUNG <span class="dot">·</span> Orthopedic <span class="dot">·</span> DB with suture left middle finger <span class="dot">·</span> Circ น.ส.กรรณชดา สาลีเพ็ง <span class="dot">·</span> ขาด First Dx, Last Dx</div><div class="case-line">22/9/2569 <span class="dot">·</span> HN250866 <span class="dot">·</span> นางบังอร เชื้อวังคำ <span class="dot">·</span> Orthopedic <span class="dot">·</span> Posterior  pedicle screw fixation c PLF T5-T9 <span class="dot">·</span> Circ น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ <span class="dot">·</span> ขาด เวลาออกจากห้องผ่าตัด</div><div class="case-line">22/9/2569 <span class="dot">·</span> HN4675 <span class="dot">·</span> นายเสียง แก้วเหล็ก <span class="dot">·</span> Orthopedic <span class="dot">·</span> Debridement of wound Lt Leg <span class="dot">·</span> Circ นางณัฐณิชา ไชยพะยวน <span class="dot">·</span> ขาด Aneasthesia</div><div class="case-line">22/9/2569 <span class="dot">·</span> HN37965 <span class="dot">·</span> นางเจริญพร หันศรี <span class="dot">·</span> Eye <span class="dot">·</span> Excision of pterygium with AMT RE <span class="dot">·</span> Circ น.ส.อารียา มัตตะราช, น.ส.อลิชา สุริวรรณ <span class="dot">·</span> ขาด Wound Type</div><div class="case-line">23/9/2569 <span class="dot">·</span> HN262215 <span class="dot">·</span> นางแตง คำจรสิงห์ <span class="dot">·</span> Surgery <span class="dot">·</span> liver segmentectomy <span class="dot">·</span> Circ น.ส.มัญชุกร เกิดไทย <span class="dot">·</span> ขาด First Dx, Last Dx</div><div class="case-line">23/9/2569 <span class="dot">·</span> HN167335 <span class="dot">·</span> นายนิยม ประวิเศษ <span class="dot">·</span> Eye <span class="dot">·</span> Excision Pterygium with conjunctiva graft LE <span class="dot">·</span> Circ น.ส.อารียา มัตตะราช <span class="dot">·</span> ขาด Type</div></div></div>
       </div>
     </div>
 
@@ -341,17 +280,5 @@
 
     <footer>อัปเดตอัตโนมัติ 07:52 · ระบบ guard ทะเบียนผ่าตัด</footer>
   </div>
-<script>
-  function setMonthView(view) {
-    var table = document.getElementById('month-view-table');
-    var lines = document.getElementById('month-view-lines');
-    var btns = document.querySelectorAll('.view-btn');
-    table.style.display = (view === 'table') ? '' : 'none';
-    lines.style.display = (view === 'lines') ? '' : 'none';
-    btns.forEach(function (b) {
-      b.classList.toggle('active', b.getAttribute('data-view') === view);
-    });
-  }
-</script>
 </body>
 </html>
