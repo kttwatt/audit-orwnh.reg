@@ -15,7 +15,7 @@
   },
   "month": {
     "label": "วันที่ 1/09/69 ถึง 25/09/69",
-    "total": 595,
+    "total": 594,
     "cases": [
       {
         "date": "8/9/2569",
@@ -99,6 +99,6 @@
         "first_seen": "2026-09-25"
       }
     ],
-    "unfinished": 8
+    "unfinished": 7
   }
 }
