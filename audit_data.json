@@ -2,10 +2,10 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "26/09/2026",
-  "rows": 13480,
+  "rows": 13482,
   "colA": {
     "dup": 1,
-    "missing": 0,
+    "missing": 4,
     "offset": 2
   },
   "blank_cols": {},
@@ -15,7 +15,7 @@
   },
   "month": {
     "label": "วันที่ 1/09/69 ถึง 25/09/69",
-    "total": 594,
+    "total": 589,
     "cases": [
       {
         "date": "8/9/2569",
@@ -99,6 +99,6 @@
         "first_seen": "2026-09-25"
       }
     ],
-    "unfinished": 7
+    "unfinished": 2
   }
 }
