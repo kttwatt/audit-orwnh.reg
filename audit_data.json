@@ -5,12 +5,12 @@
   "rows": 13482,
   "colA": {
     "dup": 1,
-    "missing": 4,
+    "missing": 0,
     "offset": 2
   },
   "blank_cols": {},
   "team": {
-    "dup_in_set": 100,
+    "dup_in_set": 101,
     "dup_in_set_recent": 0
   },
   "month": {
