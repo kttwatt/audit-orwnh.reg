@@ -2,19 +2,17 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "25/09/2026",
-  "rows": 13476,
+  "rows": 13477,
   "colA": {
     "dup": 1,
-    "missing": 3,
+    "missing": 0,
     "offset": 2
   },
   "blank_cols": {
     "First Dx": 2,
     "Last Dx": 2,
     "เวลาออกจากห้องผ่าตัด": 1,
-    "Aneasthesia": 1,
-    "Wound Type": 1,
-    "Type": 1
+    "Aneasthesia": 1
   },
   "team": {
     "dup_in_set": 100,
@@ -24,17 +22,6 @@
     "label": "วันที่ 1/09/69 ถึง 24/09/69",
     "total": 560,
     "cases": [
-      {
-        "date": "3/9/2569",
-        "hn": "81681",
-        "name": "นางนารี พลสันต์",
-        "dept": "Surgery",
-        "op": "AVF Rt. Forearm",
-        "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-        "missing": [
-          "Risk"
-        ]
-      },
       {
         "date": "8/9/2569",
         "hn": "30030",
@@ -93,17 +80,6 @@
         ]
       },
       {
-        "date": "22/9/2569",
-        "hn": "37965",
-        "name": "นางเจริญพร หันศรี",
-        "dept": "Eye",
-        "op": "Excision of pterygium with AMT RE",
-        "circ": "น.ส.อารียา มัตตะราช, น.ส.อลิชา สุริวรรณ",
-        "missing": [
-          "Wound Type"
-        ]
-      },
-      {
         "date": "23/9/2569",
         "hn": "262215",
         "name": "นางแตง คำจรสิงห์",
@@ -113,17 +89,6 @@
         "missing": [
           "First Dx",
           "Last Dx"
-        ]
-      },
-      {
-        "date": "23/9/2569",
-        "hn": "167335",
-        "name": "นายนิยม ประวิเศษ",
-        "dept": "Eye",
-        "op": "Excision Pterygium with conjunctiva graft LE",
-        "circ": "น.ส.อารียา มัตตะราช",
-        "missing": [
-          "Type"
         ]
       }
     ],
