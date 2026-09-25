@@ -37,40 +37,6 @@
     margin: 0 auto;
   }
 
-  .gist-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 18px;
-  }
-
-  .gist-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--teal);
-    margin: 0;
-    word-break: break-word;
-  }
-
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    background: var(--green);
-    color: #fff;
-    font-size: 0.78rem;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 999px;
-  }
-
-  .as-of {
-    width: 100%;
-    color: var(--text-muted);
-    font-size: 0.88rem;
-  }
-
   .gist-box {
     background: var(--bg-panel);
     border: 1px solid var(--border);
@@ -78,27 +44,6 @@
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 0 1px 2px rgba(15, 118, 110, 0.06);
-  }
-
-  .gist-box-header {
-    background: var(--bg-muted);
-    border-bottom: 1px solid var(--border);
-    padding: 10px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .gist-caption {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-  }
-
-  .gist-filename {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 0.92rem;
-    font-weight: 600;
-    color: var(--teal);
   }
 
   .gist-box-body {
@@ -277,17 +222,7 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="gist-header">
-      <h1 class="gist-title">audit-orwnh.reg</h1>
-      <span class="badge">🔎 Audit</span>
-      <div class="as-of">as_of: 25/09/2026</div>
-    </div>
-
     <div class="gist-box">
-      <div class="gist-box-header">
-        <span class="gist-caption">kttwatt / audit-orwnh.reg</span>
-        <span class="gist-filename">missing_data_this_month.csv</span>
-      </div>
       <div class="gist-box-body">
         <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ (กันยายน 2569 (1–24))</p>
         <p class="section-sub">total: 560</p>
@@ -398,10 +333,6 @@
     </div>
 
     <div class="gist-box">
-      <div class="gist-box-header">
-        <span class="gist-caption">kttwatt / audit-orwnh.reg</span>
-        <span class="gist-filename">blank_columns.txt</span>
-      </div>
       <div class="gist-box-body">
         <p class="section-title">ช่องที่ว่าง</p>
         <div class="chip-row"><span class="chip chip-blank">First Dx: 2</span><span class="chip chip-blank">Last Dx: 2</span><span class="chip chip-blank">เวลาออกจากห้องผ่าตัด: 1</span><span class="chip chip-blank">Aneasthesia: 1</span><span class="chip chip-blank">Wound Type: 1</span><span class="chip chip-blank">Type: 1</span></div>
