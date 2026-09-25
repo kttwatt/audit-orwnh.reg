@@ -1,26 +1,21 @@
 {
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
-  "as_of": "25/09/2026",
+  "as_of": "26/09/2026",
   "rows": 13480,
   "colA": {
     "dup": 1,
     "missing": 0,
     "offset": 2
   },
-  "blank_cols": {
-    "First Dx": 2,
-    "Last Dx": 2,
-    "เวลาออกจากห้องผ่าตัด": 1,
-    "Aneasthesia": 1
-  },
+  "blank_cols": {},
   "team": {
     "dup_in_set": 100,
-    "dup_in_set_recent": 1
+    "dup_in_set_recent": 0
   },
   "month": {
-    "label": "วันที่ 1/09/69 ถึง 24/09/69",
-    "total": 560,
+    "label": "วันที่ 1/09/69 ถึง 25/09/69",
+    "total": 595,
     "cases": [
       {
         "date": "8/9/2569",
@@ -33,7 +28,7 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       },
       {
@@ -46,7 +41,7 @@
         "missing": [
           "Risk"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       },
       {
@@ -60,7 +55,7 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       },
       {
@@ -73,7 +68,7 @@
         "missing": [
           "เวลาออกจากห้องผ่าตัด"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       },
       {
@@ -86,7 +81,7 @@
         "missing": [
           "Aneasthesia"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       },
       {
@@ -100,10 +95,10 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 0,
+        "days_pending": 1,
         "first_seen": "2026-09-25"
       }
     ],
-    "unfinished": 0
+    "unfinished": 8
   }
 }
