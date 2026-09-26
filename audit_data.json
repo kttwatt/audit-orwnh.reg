@@ -4,9 +4,9 @@
   "as_of": "26/09/2026",
   "rows": 13482,
   "colA": {
-    "dup": 1,
+    "dup": 0,
     "missing": 0,
-    "offset": 2
+    "offset": 0
   },
   "blank_cols": {},
   "team": {
